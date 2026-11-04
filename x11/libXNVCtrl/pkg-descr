@@ -1,0 +1,7 @@
+libXNVCtrl is the client library for the NV-CONTROL X extension provided
+by the NVIDIA proprietary X driver. It lets applications query and, where
+supported, change driver attributes such as GPU utilization, temperature
+and clock frequencies.
+
+This port builds a shared library from the libXNVCtrl sources shipped with
+nvidia-settings, which upstream only builds as a static archive.
